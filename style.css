@@ -1,0 +1,87 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+
+#conteudo1{
+    background: url(imagens/imagem1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+#conteudo1, #conteudo2, #conteudo3, #conteudo4, #conteudo5, #conteudo6{
+    position: relative;
+}
+
+.chamada{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    left: 0%;
+    text-align: center;
+}
+
+.chamada .titulo{
+    background: #111;
+    color: #fff;
+    padding: 18px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+
+.texto{
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+.texto h3{
+    text-align: center;
+    color: #000;
+}
+
+#conteudo2{
+    background: url(imagens/imagem2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+#conteudo3{
+    background: url(imagens/imagem3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#conteudo4{
+    background: url(imagens/imagem4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#conteudo5{
+    background: url(imagens/imagem5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+#conteudo6{
+    background: url(imagens/imagem6.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
